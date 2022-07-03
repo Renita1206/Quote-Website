@@ -44,9 +44,9 @@ def addQuote():
         a = request.form.get('author')
         l = request.form.get('lang')
         t = request.form.get('translation')
-
-        qd = {"quote":q, "lang": l, "author":a, "translation": t}
-        x = collection.insert_one(qd)
-        return redirect(url_for('.home'))
+        if(q!="" and q!=" "):
+            qd = {"quote":q, "lang": l, "author":a, "translation": t}
+            x = collection.insert_one(qd)
+            return redirect(url_for('.home'))
 
     return render_template("addQuote.html")
