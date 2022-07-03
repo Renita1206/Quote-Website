@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content%}
+  <h1 align="center">Random Quote Generator</h1>
+  <br>
+  <br>
+  <br>
+  <div style="text-align: center;">
+    <h3>{{quote}}</h3>
+    <h4>{{author}}</h4>
+    {% if lang!="English" %}
+      <h5>Translation: {{translation}}</h5>
+      <h5>Language: {{lang}}</h5>
+    {% endif %}
+  </div>
+  <br>
+  <br>
+  <form method="POST">
+  <div align="center">
+    <button type="submit" class="btn btn-primary" style="background-color: #1bcde5;">Generate New Quote</button>
+  </div>
+  </form>
+  <a class="plus-btn" href="/addQuote">+</a>
+{% endblock %}
+
+    

@@ -1,0 +1,11 @@
+.plus-btn{
+    background-color: #1bcde5; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10%;
+    text-decoration: none;
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
