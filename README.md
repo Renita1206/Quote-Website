@@ -1,4 +1,5 @@
 # Quote-Website
-A website built using Python, Flask and mongodb
+Python, Flask, MongoDB, HTML|CSS
 
-This flask app interacts with a mongo database to add and display quotes. 
+This flask app interacts with a mongo datatabase to display random quotes.   
+It also allows user to add a new quote to the database. 
