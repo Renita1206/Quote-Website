@@ -4,7 +4,7 @@
     
     
 ## Description
-This flask app interacts with a mongo datatabase to display random quotes. The database contains quotes in multiple languages, including English and Latin. The author of the quote and the quote itself are displayed by default. In case of non-english quotes, the language of the original quote and its translation in English are also displayed. It also allows user to add a new quote to the database. 
+This flask app interacts with a MongoDB datatabase to display quotes randomly from the database. The database contains quotes in multiple languages, including English and Latin. The author of the quote and the quote itself are displayed by default. In case of non-english quotes, the language of the original quote and its translation in English are also displayed. It also allows user to add a new quote to the database. 
   
   
 # Sample Images
