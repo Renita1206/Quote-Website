@@ -1,1 +1,1 @@
-web: flask db upgrade; flask translate compile; gunicorn flaskapp:app
+web: flask db upgrade; flask translate compile; gunicorn -b :$PORT flaskapp:app
