@@ -6,4 +6,5 @@ Werkzeug
 chardet==1.0.1
 gunicorn
 pymongo
+markupsafe
 requests==0.11.1
